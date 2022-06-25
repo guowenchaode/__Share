@@ -1,3 +1,4 @@
+E:
 cd E:\ÄÚ²¿´æ´¢\__Alex
 git pull
 
