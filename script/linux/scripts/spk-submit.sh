@@ -1,0 +1,1 @@
+$SPARK_HOME/bin/spark-submit --master spark://192.168.216.200:7077 --num-executors 2 --executor-memory 1G $1
