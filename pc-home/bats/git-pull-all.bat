@@ -1,6 +1,9 @@
 E:
-cd E:\ÄÚ²¿´æ´¢\__Alex
+cd E:\ï¿½Ú²ï¿½ï¿½æ´¢\__Alex
 git pull
 
-cd E:\ÄÚ²¿´æ´¢\__Share
+cd E:\ï¿½Ú²ï¿½ï¿½æ´¢\__Share
 git pull
+
+
+cmd  /k echo %date%
