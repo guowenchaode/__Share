@@ -1,4 +1,5 @@
-git add D:\__Alex
+cd D:\__Alex
+git add .
 git commit . -m update-%date%
 git push
 
