@@ -1,8 +1,8 @@
 E:
-cd E:\鍐呴儴瀛樺偍\__Alex
+cd E:\内部储存\__Alex
 git pull
 
-cd E:\鍐呴儴瀛樺偍\__Share
+cd E:\内部储存\__Share
 git pull
 
 
