@@ -1,8 +1,8 @@
 E:
-cd E:\内部储存\__Alex
+cd E:\内部存储\__Alex
 git pull
 
-cd E:\内部储存\__Share
+cd E:\内部存储\__Share
 git pull
 
 
