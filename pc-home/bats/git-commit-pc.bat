@@ -1,10 +1,13 @@
 git add D:\__Alex
-git commit D:\__Share -m update-%date%
-git push D:\__Alex
+git commit . -m update-%date%
+git push
 
 
-git add D:\__Share
-git commit D:\__Share -m update-%date%
-git push D:\__Share
+cd D:\__Share
+git add .
+git commit . -m update-%date%
+git push
 
 cmd  /k echo %date%
+
+cd D:\__Share\pc-home\bats
