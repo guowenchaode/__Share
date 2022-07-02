@@ -1,0 +1,1 @@
+D:\__Share\script\windows\bats\cmd\focus-window-title.vbs "Hi Alex!"
