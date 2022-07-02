@@ -1,8 +1,8 @@
 E:
-cd E:\�ڲ��洢\__Alex
+cd E:\内部存储\__Alex
 git pull
 
-cd E:\�ڲ��洢\__Share
+cd E:\内部存储\__Share
 git pull
 
 
