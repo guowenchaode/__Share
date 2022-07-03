@@ -1,15 +1,26 @@
 E:
-cd E:\内部存储\__Alex
-git pull
-git add .
-git commit . -m update
-git push
 
-cd E:\内部存储\__Share
+cd E:\内部存储
+cd __Alex
 git pull
 git add .
 git commit . -m update
 git push
+cd ..
+
+cd __Share
+git pull
+git add .
+git commit . -m update
+git push
+cd ..
+
+cd Git\HiAlex
+git pull
+git add .
+git commit . -m update
+git push
+cd ../..
 
 cd d:
 cd D:\__Share\pc-home\bats
