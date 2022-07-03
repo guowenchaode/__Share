@@ -1,10 +1,12 @@
 cd D:\__Alex
+git pull
 git add .
 git commit . -m update-%date%
 git push
 
 
 cd D:\__Share
+git pull
 git add .
 git commit . -m update-%date%
 git push
