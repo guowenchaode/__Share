@@ -1,5 +1,7 @@
 E:
 
+git config --global --add safe.directory 'E:/内部存储/Git/HiAlex'
+
 cd E:\内部存储
 cd __Alex
 git pull
