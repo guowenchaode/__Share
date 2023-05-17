@@ -1,0 +1,1 @@
+C:\Users\Alex\AppData\Local\Programs\Xmind\Xmind.exe "D:\__Lemmy\学习技能.xmind"
