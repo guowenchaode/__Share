@@ -1,1 +1,1 @@
-git diff --name-only
+git diff --name-only %1

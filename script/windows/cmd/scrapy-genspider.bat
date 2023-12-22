@@ -1,0 +1,1 @@
+  scrapy genspider %1 %2
