@@ -11,8 +11,8 @@ IF [%4] == [] set %2=%3& goto :default
 IF [%4] == [-] set %2=%3& goto :default 
 IF [%4] == [--] set %2=%3& goto :default 
 
-set %2=%4 
-echo %2=%4 
+set %2=%4
+echo %2=%4
 goto :end
 
 :default 
