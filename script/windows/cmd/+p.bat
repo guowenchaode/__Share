@@ -1,5 +1,15 @@
 @echo off
-@REM set name=1
+
+@REM set python_file=
+
+set name=1
+set python_file=12
+
+call _arg 1 name %name% %1
+call _arg 2 python_file %python_file% %2
+
+IF [%1] == [] echo no name 1 & goto :END;
+IF [%2] == [] echo no python_file 2 & goto :END;
 
 @REM call _arg 1 name %name% %1
 
@@ -10,7 +20,7 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-code D:\Git\github\pytorch\pytorch-source
+
 
 
 @REM ***************************************************************

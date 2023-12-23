@@ -1,5 +1,9 @@
 @echo off
 @REM set name=1
+set workspace=current
+
+call _arg 1 workspace %workspace% %1
+@REM IF [%1] == [] echo no workspace 1 & goto :END;
 
 @REM call _arg 1 name %name% %1
 
@@ -10,7 +14,7 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-code D:\Git\github\pytorch\pytorch-source
+python D:\Git\github\python-lib\windows_lib\task_window.py --action set-windows --workspace %workspace%
 
 
 @REM ***************************************************************

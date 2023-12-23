@@ -1,7 +1,7 @@
 @echo off
-@REM set name=1
+set name=1
 
-@REM call _arg 1 name %name% %1
+call _arg 1 name %name% %1
 
 :START
 @REM IF [%1] == [] echo no name 1 & goto :END;
@@ -10,7 +10,7 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-code D:\Git\github\pytorch\pytorch-source
+python -u D:\Git\github\python-lib\pytorch_lib\cuda.py
 
 
 @REM ***************************************************************

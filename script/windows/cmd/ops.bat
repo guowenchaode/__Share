@@ -10,8 +10,7 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-code D:\Git\github\pytorch\pytorch-source
-
+python -u D:\Git\github\python-lib\start.py >> D:\__cache\logs\%date%.log
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

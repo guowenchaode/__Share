@@ -10,7 +10,7 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-code D:\Git\github\pytorch\pytorch-source
+tail -f D:\__cache\logs\%date%.log
 
 
 @REM ***************************************************************
