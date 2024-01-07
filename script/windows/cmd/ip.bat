@@ -1,5 +1,4 @@
 @echo off
-chcp 65001
 @REM set name=1
 
 @REM call _arg 1 name %name% %1
@@ -11,7 +10,7 @@ chcp 65001
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-tail -f D:\__cache\logs\%date%.log
+ipconfig
 
 
 @REM ***************************************************************

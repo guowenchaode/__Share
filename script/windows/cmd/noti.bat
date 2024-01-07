@@ -1,8 +1,10 @@
 @echo off
-chcp 65001
-@REM set name=1
 
-@REM call _arg 1 name %name% %1
+set text=1
+set title=2
+
+call _arg 1 text %text% %1
+call _arg 2 title %title% %2
 
 :START
 @REM IF [%1] == [] echo no name 1 & goto :END;
@@ -11,7 +13,7 @@ chcp 65001
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-tail -f D:\__cache\logs\%date%.log
+python D:\Git\github\python-lib\windows_lib\notification.py --text %text% --title %title%
 
 
 @REM ***************************************************************
