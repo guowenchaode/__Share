@@ -10,8 +10,9 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
+call del /f /s /Q C:\Windows\Temp
 
-
+call del /f /s /Q C:\Users\Alex\AppData\Local\Temp
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

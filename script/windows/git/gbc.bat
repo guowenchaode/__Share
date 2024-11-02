@@ -1,1 +1,1 @@
-git checkout %1
+call g checkout %1

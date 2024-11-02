@@ -10,6 +10,10 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
+@REM start D:\Git\github\python-lib\xiaohongshu_lib\xiaohongshu.bat
+
+call code D:\Git\github\xiaohongshu
+call code D:\Git\github\xiaohongshubuild
 
 
 
