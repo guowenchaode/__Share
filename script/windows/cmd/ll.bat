@@ -10,10 +10,8 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
+call ollama %1 %2 %3 %4 %5 %6 %7 %8 %9  
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

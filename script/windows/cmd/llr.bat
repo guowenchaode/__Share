@@ -10,10 +10,8 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
+call ll run deepseek-r1:1.5b
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

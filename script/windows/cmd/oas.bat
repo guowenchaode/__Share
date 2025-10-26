@@ -10,10 +10,8 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
+call "C:\Program Files\Java\jdk1.8.0_261\bin\java.exe" main.SideBarMain
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

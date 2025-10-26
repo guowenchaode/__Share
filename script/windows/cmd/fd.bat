@@ -1,19 +1,16 @@
 @echo off
-@REM set name=1
+set target_dir=1
 
-@REM call _arg 1 name %name% %1
+call _arg 1 target_dir %target_dir% %1
 
 :START
-@REM IF [%1] == [] echo no name 1 & goto :END;
+IF [%1] == [] echo no target_dir 1 & goto :END;
 
 @REM ***************************************************************
 @REM SCRIPT BODY START
 @REM ***************************************************************
+if exist %target_dir%  del /Q "%target_dir%\*"
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
 
 @REM ***************************************************************
 @REM SCRIPT BODY END
