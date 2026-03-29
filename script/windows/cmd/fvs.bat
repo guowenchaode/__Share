@@ -10,11 +10,9 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
-call fd C:\Users\Alex\AppData\Roaming\npm-cache
+set back_file=%1.%date:~0,4%%date:~5,2%%date:~8,2%_%time:~0,2%%time:~3,2%%time:~6,2%.bak
+copy %1 %back_file%
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

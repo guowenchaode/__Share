@@ -10,11 +10,8 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
-call fd C:\Users\Alex\AppData\Roaming\npm-cache
+
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

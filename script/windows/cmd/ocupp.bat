@@ -10,11 +10,9 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
-call fd C:\Users\Alex\AppData\Roaming\npm-cache
+call openclaw plugins update dingtalk
+call openclaw plugins update dingtalk-connector
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

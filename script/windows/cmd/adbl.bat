@@ -10,11 +10,15 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
-call fd C:\Users\Alex\AppData\Roaming\npm-cache
+set filter=%1
+
+if filter == "" (
+    call as shell pm list packages
+) else (
+    call as shell pm list packages | findstr  %filter%
+)
+
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END

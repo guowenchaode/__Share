@@ -10,11 +10,8 @@
 @REM SCRIPT BODY START
 @REM ***************************************************************
 
-call fd C:\Windows\Temp
-call fd C:\Users\Alex\AppData\Local\Temp
-call fd C:\Users\Alex\AppData\Local\cache
-call fd C:\Users\Alex\AppData\Local\pip\cache
-call fd C:\Users\Alex\AppData\Roaming\npm-cache
+call python -u D:\Git\github\python-lib\game_lib\main.py
+
 
 @REM ***************************************************************
 @REM SCRIPT BODY END
